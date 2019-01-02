@@ -47,6 +47,16 @@ $('#leaderboard_nav').click(function (e) {
     $(this).toggleClass('active');
     $(this).css('border-color', '#000000');
 });
+$('#leaderboard_about_us').click(function (e) { 
+    
+    $('#navbar').css("background" , "#011627");
+    $('.nav_item').removeClass('active');
+    $('.nav_item').css('color', '#ffffff');
+    $('.nav_item').css('border-color', '#011627');
+    $('#about_us_nav').toggleClass('active');
+    $('#about_us_nav').css('border-color', '#ffffff');
+});
+
 $('#play_hall_of_fame').click(function (e) { 
     
     $('#navbar').css("background-color" , "#2EC4B6");

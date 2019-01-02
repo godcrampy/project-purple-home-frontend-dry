@@ -207,3 +207,13 @@ html {
     font-family: 'Quicksand', sans-serif;
     font-size: 2rem;
 }
+
+#leaderboard_about_us{
+    font-size: 3rem;
+    text-align: center;
+    font-family: 'Quicksand', cursive;
+    border: 5px solid black;
+    padding: 2px 15px;
+    text-decoration: none;
+    color: black
+}
